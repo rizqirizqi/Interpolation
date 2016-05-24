@@ -10,6 +10,7 @@ xx = [1:0.01:max_x];
 yy = interp_newton(x,y,xx);
 
 grid on; hold on;
-plot(x,y,'o',xx,yy);
+plot(xx,yy);
+plot(x,y,'o');
 title('Newton Interpolation Soal 2');
 end
