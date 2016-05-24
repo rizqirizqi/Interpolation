@@ -11,6 +11,6 @@ yy = interp_newton(x,y,xx);
 
 grid on; hold on;
 plot(xx,yy);
-plot(x,y,'o');
+%plot(x,y,'o');
 title('Newton Interpolation Soal 2');
 end
