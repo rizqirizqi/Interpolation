@@ -1,6 +1,6 @@
 function gambar_soal1_dirichlet(h)
-end_condition = 1;
-start_condition = -1;
+end_condition = 0.67295;
+start_condition = -0.67295;
 
 f = @fungsi_soal1;
 x = [-4:h:4];
