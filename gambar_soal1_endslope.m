@@ -1,4 +1,4 @@
-function gambar_soal1_dirichlet(h)
+function gambar_soal1_endslope(h)
 end_condition = 0.67295;
 start_condition = -0.67295;
 
