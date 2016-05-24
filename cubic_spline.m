@@ -1,8 +1,8 @@
-function [yy] = spline(x,y,xx)
+function [yy] = cubic_spline(x,y,xx)
 
 n = length(x);
 for i = 2:n-1
-    d(i-1) = (3*(y(i+1)-y(i)))/(x(i+1)-x(i));
+    d(i-1) = (3*(y(i+1)-y(i-1)))/(x(i+1)-x(i));
 end
 
 %saksen
