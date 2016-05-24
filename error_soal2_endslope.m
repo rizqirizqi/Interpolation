@@ -4,7 +4,7 @@ xi(length(xi)+1) = xi(length(xi)) + h;
 faksen = diff(gamma(xi));
 
 end_condition = faksen(1);
-start_condition = faksen(5);
+start_condition = faksen(length(faksen));
 f = @gamma;
 
 x = [1:h:5];
