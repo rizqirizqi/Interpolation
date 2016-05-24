@@ -9,6 +9,7 @@ xx = [-4:0.01:max_x];
 yy = cubic_spline(x, y, xx);
 
 grid on; hold on;
-plot(x,y,'o',xx,yy);
+plot(xx,yy);
+%plot(x,y,'o');
 title('Cubic Spline Interpolation Soal 1');
 end
